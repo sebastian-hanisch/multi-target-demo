@@ -222,7 +222,7 @@ if urows is not None:
     q3 = next(r for r in urows if r["q"] == 0.3)
     st.info(
         f"Bei exakt geraden Bahnen (0 m/s²) behält die einfache Regel die Identitäten in {pct(1 - q0['nn']['swap'])} der Begegnungen, die globale in {pct(1 - q0['gnn']['swap'])}; "
-        f"bei 0,3 m/s² sind es {pct(1 - q3['nn']['swap'])} und {pct(1 - q3['gnn']['swap'])}: sobald die Geschwindigkeit als Gedächtnis weniger trägt, "
+        f"bei 0,3 m/s² sind es {pct(1 - q3['nn']['swap'])} und {pct(1 - q3['gnn']['swap'])}: sobald die Geschwindigkeit als Gedächtnis weniger hilft, "
         "hilft die globale Zuordnung."
     )
 
